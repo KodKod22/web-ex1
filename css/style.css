@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, section, div  {
+    display: block;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1400px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #ffffff;
+}
+#logo {
+    background-image: url("/images/LEGO_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    
+}
+#logo span {
+    color: #3E3F43;
+    font-family:nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.25em;
+    padding-left: 80px;
+}
+.header-continer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+    height: 64px;
+    width: 1046px;
+    margin-left: 32px;
+}
+nav {
+    margin-left: 135px;  
+}
+
+nav a {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    color: #222222;
+    margin-right: 64px;
+}
+nav a:first-child {
+    margin-right: 62px;
+}
+
+nav a:hover {
+    color: #612999;
+}
