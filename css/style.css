@@ -10,11 +10,10 @@ header, main, footer, nav, section, div  {
 a {
     text-decoration: none;
 }
-h3, a,span {
-    font-family:nunito;
-    color: #222222;
-}
+
 h3 {
+    font-family:nunito;
+    color: #333333;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -36,6 +35,7 @@ header {
     
 }
 #logo span {
+    font-family: Nunito;
     color: #3E3F43;
     font-size: 24px;
     font-weight: 700;
@@ -51,28 +51,26 @@ header {
     margin-left: 32px;
     margin-top: 32px;
     margin-bottom: 32px;
-    justify-content:space-between;
-    
+    justify-content: space-between;
 }
 nav {
-    margin-left: 135px;  
+    margin-left: 135px;
+    margin-right: 122px; 
 }
 
-nav a {
+nav a > span {
     font-family: Nunito;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 24px;
     margin-right: 64px;
+    color: #612999;
 }
 nav a:first-child {
     margin-right: 62px;
 }
 
-a:hover {
-    color: #612999;
-}
 #current-page {
     font-weight: bold;
 }
@@ -95,15 +93,22 @@ aside ul li {
     margin-top: 8px;
 }
 aside ul li > span {
+    font-family:nunito;
+    color: #333333;
     font-weight: 600;
     font-size: 16px;
 }
 ul {
     list-style: none;
 }
-a > span {
+li a > span {
+    font-family:nunito;
     font-weight: 400;
     font-size: 16px;
+    color: #333333;
+}
+a > span:hover {
+    color: #7d00fb;
 }
 .list-social-icons {
     display: flex;
@@ -160,4 +165,29 @@ h1 + p {
     height: 99px;
     margin-left: 32px;
     color: #000000;
+}
+h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #612999;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+h2 ~ p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 141%;
+    color: #000000;
+    text-align: justify;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 1136;
+    height: 310;
+}
+section p:last-of-type {
+    margin-bottom: 32px;
 }
