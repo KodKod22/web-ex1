@@ -279,3 +279,32 @@ main > section > img {
 main > section > img:nth-of-type(2) {
     width: 388.29px;
 }
+.rocket {
+    background-image: url("/images/Group.png");
+    background-repeat: no-repeat;
+    background-color: #612999;
+    background-position: center;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+}
+h2 + ul {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.rocket + span {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+section ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
