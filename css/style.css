@@ -67,9 +67,7 @@ nav a > span {
     margin-right: 64px;
     color: #612999;
 }
-nav a:first-child {
-    margin-right: 62px;
-}
+
 
 #current-page {
     font-weight: bold;
@@ -270,4 +268,14 @@ section p:last-of-type {
     height: 63px;
     margin-left: 262px;
     margin-top: 406px;
+}
+
+main > section > img {
+    height: 300px;
+    border: 4px solid #E6DBFE;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+main > section > img:nth-of-type(2) {
+    width: 388.29px;
 }
