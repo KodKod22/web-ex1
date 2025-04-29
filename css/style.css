@@ -26,9 +26,6 @@ header {
     min-width: 100%;
     max-width: 100%;
 }
-main {
-    padding-bottom: 287px;
-}
 #logo {
     background-image: url("/images/LEGO_logo.png");
     background-repeat: no-repeat;
@@ -88,7 +85,6 @@ footer {
 }
 .foother-continer {
     background-color: #EFECFF; 
-    position: fixed;
     bottom: 0px;
     display: flex;
     flex-direction: row;
